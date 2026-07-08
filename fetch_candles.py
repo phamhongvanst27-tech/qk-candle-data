@@ -27,6 +27,7 @@ def ema(values, period):
 
 
 scan = {
+    "version": datetime.now(timezone.utc).strftime("%Y%m%d%H%M%S"),
     "updated_at": datetime.now(timezone.utc).isoformat(),
     "total_symbols": len(SYMBOLS),
     "symbols": {}
