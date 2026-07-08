@@ -7,16 +7,14 @@ ALL_SYMBOLS = [
     "EURUSD",
     "GBPUSD",
     "USDJPY",
-    "XAUUSD",
-    "USOIL"
+    "XAUUSD"
 ]
 
-RUN_GROUP = int(datetime.now().minute / 5) % 3
+RUN_GROUP = int(datetime.now().minute / 5) % 2
 
 GROUPS = [
     ["EURUSD", "GBPUSD", "USDJPY"],
-    ["USDCAD", "AUDUSD"],
-    ["XAUUSD", "USOIL"]
+    ["XAUUSD"]
 ]
 
 SYMBOLS = GROUPS[RUN_GROUP]
