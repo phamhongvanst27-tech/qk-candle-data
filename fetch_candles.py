@@ -7,8 +7,6 @@ ALL_SYMBOLS = [
     "EURUSD",
     "GBPUSD",
     "USDJPY",
-    "USDCAD",
-    "AUDUSD",
     "XAUUSD",
     "USOIL"
 ]
