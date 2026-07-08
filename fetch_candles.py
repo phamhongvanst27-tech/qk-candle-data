@@ -3,20 +3,14 @@ import requests
 import json
 from datetime import datetime, timezone
 
-ALL_SYMBOLS = [
-    "EURUSD",
-    "GBPUSD",
-    "USDJPY",
-    "XAUUSD"
-]
-
-RUN_GROUP = int(datetime.now().minute / 5) % 2
-
 GROUPS = [
-    ["EURUSD", "GBPUSD", "USDJPY"],
+    ["EURUSD"],
+    ["GBPUSD"],
+    ["USDJPY"],
     ["XAUUSD"]
 ]
 
+RUN_GROUP = int(datetime.now(timezone.utc).minute / 5) % len(GROUPS)
 SYMBOLS = GROUPS[RUN_GROUP]
 
 TIMEFRAMES = ["15min", "1h", "4h"]
@@ -37,15 +31,17 @@ def ema(values, period):
     return result
 
 
-scan = {
-    "version": datetime.now(timezone.utc).strftime("%Y%m%d%H%M%S"),
-    "updated_at": datetime.now(timezone.utc).isoformat(),
-    "total_symbols": len(SYMBOLS),
-    "symbols": {}
-}
+# Đọc dữ liệu cũ để giữ lại các cặp đã quét trước đó
+try:
+    with open("qk_scan.json", "r", encoding="utf-8") as f:
+        old_scan = json.load(f)
+        all_symbols_data = old_scan.get("symbols", {})
+except (FileNotFoundError, json.JSONDecodeError):
+    all_symbols_data = {}
+
 
 for symbol in SYMBOLS:
-    scan["symbols"][symbol] = {}
+    symbol_data = {}
 
     for timeframe in TIMEFRAMES:
         url = "https://api.twelvedata.com/time_series"
@@ -61,7 +57,7 @@ for symbol in SYMBOLS:
         result = response.json()
 
         if result.get("status") == "error" or "values" not in result:
-            scan["symbols"][symbol][timeframe] = {
+            symbol_data[timeframe] = {
                 "status": "error",
                 "message": result.get("message", "No data")
             }
@@ -76,7 +72,7 @@ for symbol in SYMBOLS:
 
         latest = candles[-1]
 
-        scan["symbols"][symbol][timeframe] = {
+        symbol_data[timeframe] = {
             "status": "ok",
             "datetime": latest["datetime"],
             "open": float(latest["open"]),
@@ -89,7 +85,18 @@ for symbol in SYMBOLS:
             "recent_low_20": min(lows[-20:])
         }
 
+    all_symbols_data[symbol] = symbol_data
+
+
+scan = {
+    "version": datetime.now(timezone.utc).strftime("%Y%m%d%H%M%S"),
+    "updated_at": datetime.now(timezone.utc).isoformat(),
+    "total_symbols": len(all_symbols_data),
+    "symbols": all_symbols_data
+}
+
+
 with open("qk_scan.json", "w", encoding="utf-8") as f:
     json.dump(scan, f, ensure_ascii=False, indent=2)
 
-print("QK SCAN DONE")
+print("QK SCAN DONE:", SYMBOLS)
