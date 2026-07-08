@@ -1,82 +1,58 @@
 {
-  "version": "20260708053708",
-  "updated_at": "2026-07-08T05:37:08.319838+00:00",
+  "version": "20260708054123",
+  "updated_at": "2026-07-08T05:41:23.456396+00:00",
   "total_symbols": 2,
   "symbols": {
-    "USDCAD": {
+    "XAUUSD": {
       "15min": {
         "status": "ok",
         "datetime": "2026-07-08 15:30:00",
-        "open": 1.41886,
-        "high": 1.41892,
-        "low": 1.41852,
-        "close": 1.41854,
-        "ema50": 1.4201248795321757,
-        "ema200": 1.4203894934118027,
-        "recent_high_20": 1.42104,
-        "recent_low_20": 1.41852
+        "open": 4124.27214,
+        "high": 4130.55389,
+        "low": 4123.31219,
+        "close": 4130.03245,
+        "ema50": 4098.03034519802,
+        "ema200": 4061.985438564963,
+        "recent_high_20": 4134.11055,
+        "recent_low_20": 4097.18523
       },
       "1h": {
         "status": "ok",
         "datetime": "2026-07-08 15:00:00",
-        "open": 1.41934,
-        "high": 1.41934,
-        "low": 1.41852,
-        "close": 1.41854,
-        "ema50": 1.4205852936329737,
-        "ema200": 1.4198754044151325,
-        "recent_high_20": 1.42463,
-        "recent_low_20": 1.41839
+        "open": 4125.9147,
+        "high": 4134.11055,
+        "low": 4122.52133,
+        "close": 4130.03245,
+        "ema50": 4060.7517215709377,
+        "ema200": 4073.6184167906868,
+        "recent_high_20": 4134.11055,
+        "recent_low_20": 4009.30158
       },
       "4h": {
         "status": "ok",
         "datetime": "2026-07-08 15:00:00",
-        "open": 1.41934,
-        "high": 1.41934,
-        "low": 1.41852,
-        "close": 1.41854,
-        "ema50": 1.419098368749161,
-        "ema200": 1.4038040845961055,
-        "recent_high_20": 1.42463,
-        "recent_low_20": 1.41759
+        "open": 4125.9147,
+        "high": 4134.11055,
+        "low": 4122.52133,
+        "close": 4130.03245,
+        "ema50": 4078.177514400197,
+        "ema200": 4243.53681230288,
+        "recent_high_20": 4134.11055,
+        "recent_low_20": 3949.44708
       }
     },
-    "AUDUSD": {
+    "USOIL": {
       "15min": {
-        "status": "ok",
-        "datetime": "2026-07-08 15:30:00",
-        "open": 0.69421,
-        "high": 0.69435,
-        "low": 0.69412,
-        "close": 0.69432,
-        "ema50": 0.6928885252619316,
-        "ema200": 0.690569936820671,
-        "recent_high_20": 0.69468,
-        "recent_low_20": 0.69294
+        "status": "error",
+        "message": "**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data"
       },
       "1h": {
-        "status": "ok",
-        "datetime": "2026-07-08 15:00:00",
-        "open": 0.69407,
-        "high": 0.69453,
-        "low": 0.69401,
-        "close": 0.69432,
-        "ema50": 0.6907559714095803,
-        "ema200": 0.6919641989823486,
-        "recent_high_20": 0.69468,
-        "recent_low_20": 0.6882
+        "status": "error",
+        "message": "**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data"
       },
       "4h": {
-        "status": "ok",
-        "datetime": "2026-07-08 15:00:00",
-        "open": 0.69407,
-        "high": 0.69453,
-        "low": 0.69401,
-        "close": 0.69432,
-        "ema50": 0.6918360781173533,
-        "ema200": 0.7015966389871353,
-        "recent_high_20": 0.69468,
-        "recent_low_20": 0.68654
+        "status": "error",
+        "message": "**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation: https://twelvedata.com/docs#reference-data"
       }
     }
   }
