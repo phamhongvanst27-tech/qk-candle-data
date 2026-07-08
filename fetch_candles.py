@@ -26,7 +26,7 @@ for symbol in SYMBOLS:
         url = "https://api.twelvedata.com/time_series"
 
         params = {
-            "symbol": symbol,
+            "symbol": symbol[:3] + "/" + symbol[3:],
             "interval": timeframe,
             "outputsize": 250,
             "apikey": API_KEY
