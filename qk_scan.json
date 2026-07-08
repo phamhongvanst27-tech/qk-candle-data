@@ -1,112 +1,44 @@
 {
-  "version": "20260708055044",
-  "updated_at": "2026-07-08T05:50:44.870311+00:00",
-  "total_symbols": 3,
+  "version": "20260708055604",
+  "updated_at": "2026-07-08T05:56:04.731260+00:00",
+  "total_symbols": 1,
   "symbols": {
-    "EURUSD": {
+    "XAUUSD": {
       "15min": {
         "status": "ok",
         "datetime": "2026-07-08 15:45:00",
-        "open": 1.14204,
-        "high": 1.14204,
-        "low": 1.14181,
-        "close": 1.14187,
-        "ema50": 1.1411131891579798,
-        "ema200": 1.1405571080788464,
-        "recent_high_20": 1.14209,
-        "recent_low_20": 1.13994
+        "open": 4130.61422,
+        "high": 4130.61422,
+        "low": 4124.75718,
+        "close": 4126.79331,
+        "ema50": 4099.191967718091,
+        "ema200": 4062.5291970341277,
+        "recent_high_20": 4134.11055,
+        "recent_low_20": 4097.18523
       },
       "1h": {
         "status": "ok",
         "datetime": "2026-07-08 15:00:00",
-        "open": 1.14147,
-        "high": 1.14209,
-        "low": 1.14124,
-        "close": 1.14187,
-        "ema50": 1.1407046066636823,
-        "ema200": 1.1404768102725624,
-        "recent_high_20": 1.14347,
-        "recent_low_20": 1.13847
+        "open": 4125.9147,
+        "high": 4134.11055,
+        "low": 4122.52133,
+        "close": 4126.79331,
+        "ema50": 4060.6246964728984,
+        "ema200": 4073.5861865419306,
+        "recent_high_20": 4134.11055,
+        "recent_low_20": 4009.30158
       },
       "4h": {
         "status": "ok",
         "datetime": "2026-07-08 15:00:00",
-        "open": 1.14147,
-        "high": 1.14209,
-        "low": 1.14124,
-        "close": 1.14187,
-        "ema50": 1.140985865224961,
-        "ema200": 1.1503690170547411,
-        "recent_high_20": 1.14347,
-        "recent_low_20": 1.1379
-      }
-    },
-    "GBPUSD": {
-      "15min": {
-        "status": "ok",
-        "datetime": "2026-07-08 15:45:00",
-        "open": 1.33584,
-        "high": 1.33593,
-        "low": 1.33564,
-        "close": 1.33569,
-        "ema50": 1.3332741866112352,
-        "ema200": 1.3270878159127968,
-        "recent_high_20": 1.33594,
-        "recent_low_20": 1.33431
-      },
-      "1h": {
-        "status": "ok",
-        "datetime": "2026-07-08 15:00:00",
-        "open": 1.33535,
-        "high": 1.33593,
-        "low": 1.3352,
-        "close": 1.33569,
-        "ema50": 1.3276076849654537,
-        "ema200": 1.3230712067834522,
-        "recent_high_20": 1.33628,
-        "recent_low_20": 1.32117
-      },
-      "4h": {
-        "status": "ok",
-        "datetime": "2026-07-08 15:00:00",
-        "open": 1.33535,
-        "high": 1.33593,
-        "low": 1.3352,
-        "close": 1.33569,
-        "ema50": 1.324348902372027,
-        "ema200": 1.332314284036136,
-        "recent_high_20": 1.33628,
-        "recent_low_20": 1.31914
-      }
-    },
-    "USDJPY": {
-      "15min": {
-        "status": "ok",
-        "datetime": "2026-07-08 15:45:00",
-        "open": 162.24503,
-        "high": 162.2835,
-        "low": 162.24503,
-        "close": 162.27787,
-        "ema50": 162.33470709903017,
-        "ema200": 162.1230852446025,
-        "recent_high_20": 162.4583,
-        "recent_low_20": 162.23733
-      },
-      "1h": {
-        "status": "ok",
-        "datetime": "2026-07-08 15:00:00",
-        "open": 162.37865,
-        "high": 162.38286,
-        "low": 162.23733,
-        "close": 162.27787,
-        "ema50": 162.18736480881375,
-        "ema200": 161.85773611092253,
-        "recent_high_20": 162.67306,
-        "recent_low_20": 161.99043
-      },
-      "4h": {
-        "status": "error",
-        "message": "You have run out of API credits for the current minute. 9 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing"
+        "open": 4125.9147,
+        "high": 4134.11055,
+        "low": 4122.52133,
+        "close": 4126.79331,
+        "ema50": 4078.050489302158,
+        "ema200": 4243.5045820541245,
+        "recent_high_20": 4134.11055,
+        "recent_low_20": 3949.44708
       }
     }
   }
