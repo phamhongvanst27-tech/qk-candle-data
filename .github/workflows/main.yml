@@ -20,6 +20,8 @@ jobs:
         run: pip install requests
 
       - name: Run candle fetcher
+        env:
+          TWELVE_DATA_API_KEY: ${{ secrets.TWELVE_DATA_API_KEY }}
         run: python fetch_candles.py
 
       - name: Commit candle data
