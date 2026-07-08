@@ -1,0 +1,277 @@
+{
+  "updated_at": "2026-07-08T03:06:12.357800+00:00",
+  "symbols": {
+    "EURUSD": {
+      "15min": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      },
+      "1h": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      },
+      "4h": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      }
+    },
+    "GBPUSD": {
+      "15min": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      },
+      "1h": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      },
+      "4h": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      }
+    },
+    "USDJPY": {
+      "15min": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      },
+      "1h": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      },
+      "4h": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      }
+    },
+    "USDCHF": {
+      "15min": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      },
+      "1h": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      },
+      "4h": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      }
+    },
+    "USDCAD": {
+      "15min": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      },
+      "1h": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      },
+      "4h": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      }
+    },
+    "AUDUSD": {
+      "15min": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      },
+      "1h": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      },
+      "4h": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      }
+    },
+    "NZDUSD": {
+      "15min": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      },
+      "1h": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      },
+      "4h": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      }
+    },
+    "EURGBP": {
+      "15min": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      },
+      "1h": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      },
+      "4h": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      }
+    },
+    "EURJPY": {
+      "15min": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      },
+      "1h": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      },
+      "4h": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      }
+    },
+    "GBPJPY": {
+      "15min": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      },
+      "1h": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      },
+      "4h": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      }
+    },
+    "AUDJPY": {
+      "15min": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      },
+      "1h": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      },
+      "4h": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      }
+    },
+    "CADJPY": {
+      "15min": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      },
+      "1h": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      },
+      "4h": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      }
+    },
+    "CHFJPY": {
+      "15min": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      },
+      "1h": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      },
+      "4h": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      }
+    },
+    "EURAUD": {
+      "15min": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      },
+      "1h": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      },
+      "4h": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      }
+    },
+    "GBPAUD": {
+      "15min": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      },
+      "1h": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      },
+      "4h": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      }
+    },
+    "EURCAD": {
+      "15min": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      },
+      "1h": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      },
+      "4h": {
+        "code": 401,
+        "message": "The 'demo' API key is only used for initial familiarity. To become a full user, you can request your own API key at https://twelvedata.com/pricing. It is absolutely free, and it’s yours for a lifetime. It only takes 10 seconds to obtain your own API key!",
+        "status": "error"
+      }
+    }
+  }
+}
