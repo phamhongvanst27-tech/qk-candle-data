@@ -1,168 +1,82 @@
 {
-  "version": "20260708052928",
-  "updated_at": "2026-07-08T05:29:28.087972+00:00",
-  "total_symbols": 7,
+  "version": "20260708053708",
+  "updated_at": "2026-07-08T05:37:08.319838+00:00",
+  "total_symbols": 2,
   "symbols": {
-    "EURUSD": {
-      "15min": {
-        "status": "ok",
-        "datetime": "2026-07-08 15:15:00",
-        "open": 1.1416,
-        "high": 1.14175,
-        "low": 1.14124,
-        "close": 1.14143,
-        "ema50": 1.1410419917841568,
-        "ema200": 1.1405300485525043,
-        "recent_high_20": 1.14192,
-        "recent_low_20": 1.13994
-      },
-      "1h": {
-        "status": "ok",
-        "datetime": "2026-07-08 15:00:00",
-        "open": 1.14147,
-        "high": 1.14192,
-        "low": 1.14124,
-        "close": 1.14143,
-        "ema50": 1.1406873517617215,
-        "ema200": 1.1404724321631097,
-        "recent_high_20": 1.14347,
-        "recent_low_20": 1.13847
-      },
-      "4h": {
-        "status": "ok",
-        "datetime": "2026-07-08 15:00:00",
-        "open": 1.14147,
-        "high": 1.14192,
-        "low": 1.14124,
-        "close": 1.14143,
-        "ema50": 1.1409686103230001,
-        "ema200": 1.1503646389452884,
-        "recent_high_20": 1.14347,
-        "recent_low_20": 1.1379
-      }
-    },
-    "GBPUSD": {
-      "15min": {
-        "status": "ok",
-        "datetime": "2026-07-08 15:15:00",
-        "open": 1.33555,
-        "high": 1.33566,
-        "low": 1.3352,
-        "close": 1.33539,
-        "ema50": 1.3330656156956369,
-        "ema200": 1.3269159266937156,
-        "recent_high_20": 1.33594,
-        "recent_low_20": 1.33431
-      },
-      "1h": {
-        "status": "ok",
-        "datetime": "2026-07-08 15:00:00",
-        "open": 1.33535,
-        "high": 1.33592,
-        "low": 1.3352,
-        "close": 1.33539,
-        "ema50": 1.3275959202595713,
-        "ema200": 1.3230682217088254,
-        "recent_high_20": 1.33628,
-        "recent_low_20": 1.32117
-      },
-      "4h": {
-        "status": "ok",
-        "datetime": "2026-07-08 15:00:00",
-        "open": 1.33535,
-        "high": 1.33592,
-        "low": 1.3352,
-        "close": 1.33539,
-        "ema50": 1.3243371376661446,
-        "ema200": 1.3323112989615091,
-        "recent_high_20": 1.33628,
-        "recent_low_20": 1.31914
-      }
-    },
-    "USDJPY": {
-      "15min": {
-        "status": "ok",
-        "datetime": "2026-07-08 15:15:00",
-        "open": 162.35002,
-        "high": 162.36274,
-        "low": 162.32977,
-        "close": 162.34126,
-        "ema50": 162.34114554830913,
-        "ema200": 162.1228710889059,
-        "recent_high_20": 162.4583,
-        "recent_low_20": 162.24882
-      },
-      "1h": {
-        "status": "ok",
-        "datetime": "2026-07-08 15:00:00",
-        "open": 162.37865,
-        "high": 162.38286,
-        "low": 162.32977,
-        "close": 162.34126,
-        "ema50": 162.1898506911667,
-        "ema200": 161.85836685719119,
-        "recent_high_20": 162.67306,
-        "recent_low_20": 161.99043
-      },
-      "4h": {
-        "status": "error",
-        "message": "You have run out of API credits for the current minute. 9 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing"
-      }
-    },
     "USDCAD": {
       "15min": {
-        "status": "error",
-        "message": "You have run out of API credits for the current minute. 10 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing"
+        "status": "ok",
+        "datetime": "2026-07-08 15:30:00",
+        "open": 1.41886,
+        "high": 1.41892,
+        "low": 1.41852,
+        "close": 1.41854,
+        "ema50": 1.4201248795321757,
+        "ema200": 1.4203894934118027,
+        "recent_high_20": 1.42104,
+        "recent_low_20": 1.41852
       },
       "1h": {
-        "status": "error",
-        "message": "You have run out of API credits for the current minute. 11 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing"
+        "status": "ok",
+        "datetime": "2026-07-08 15:00:00",
+        "open": 1.41934,
+        "high": 1.41934,
+        "low": 1.41852,
+        "close": 1.41854,
+        "ema50": 1.4205852936329737,
+        "ema200": 1.4198754044151325,
+        "recent_high_20": 1.42463,
+        "recent_low_20": 1.41839
       },
       "4h": {
-        "status": "error",
-        "message": "You have run out of API credits for the current minute. 12 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing"
+        "status": "ok",
+        "datetime": "2026-07-08 15:00:00",
+        "open": 1.41934,
+        "high": 1.41934,
+        "low": 1.41852,
+        "close": 1.41854,
+        "ema50": 1.419098368749161,
+        "ema200": 1.4038040845961055,
+        "recent_high_20": 1.42463,
+        "recent_low_20": 1.41759
       }
     },
     "AUDUSD": {
       "15min": {
-        "status": "error",
-        "message": "You have run out of API credits for the current minute. 13 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing"
+        "status": "ok",
+        "datetime": "2026-07-08 15:30:00",
+        "open": 0.69421,
+        "high": 0.69435,
+        "low": 0.69412,
+        "close": 0.69432,
+        "ema50": 0.6928885252619316,
+        "ema200": 0.690569936820671,
+        "recent_high_20": 0.69468,
+        "recent_low_20": 0.69294
       },
       "1h": {
-        "status": "error",
-        "message": "You have run out of API credits for the current minute. 14 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing"
+        "status": "ok",
+        "datetime": "2026-07-08 15:00:00",
+        "open": 0.69407,
+        "high": 0.69453,
+        "low": 0.69401,
+        "close": 0.69432,
+        "ema50": 0.6907559714095803,
+        "ema200": 0.6919641989823486,
+        "recent_high_20": 0.69468,
+        "recent_low_20": 0.6882
       },
       "4h": {
-        "status": "error",
-        "message": "You have run out of API credits for the current minute. 15 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing"
-      }
-    },
-    "XAUUSD": {
-      "15min": {
-        "status": "error",
-        "message": "You have run out of API credits for the current minute. 16 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing"
-      },
-      "1h": {
-        "status": "error",
-        "message": "You have run out of API credits for the current minute. 17 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing"
-      },
-      "4h": {
-        "status": "error",
-        "message": "You have run out of API credits for the current minute. 18 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing"
-      }
-    },
-    "USOIL": {
-      "15min": {
-        "status": "error",
-        "message": "You have run out of API credits for the current minute. 19 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing"
-      },
-      "1h": {
-        "status": "error",
-        "message": "You have run out of API credits for the current minute. 20 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing"
-      },
-      "4h": {
-        "status": "error",
-        "message": "You have run out of API credits for the current minute. 21 API credits were used, with the current limit being 8. Wait for the next minute or consider switching to a higher tier plan at https://twelvedata.com/pricing"
+        "status": "ok",
+        "datetime": "2026-07-08 15:00:00",
+        "open": 0.69407,
+        "high": 0.69453,
+        "low": 0.69401,
+        "close": 0.69432,
+        "ema50": 0.6918360781173533,
+        "ema200": 0.7015966389871353,
+        "recent_high_20": 0.69468,
+        "recent_low_20": 0.68654
       }
     }
   }
