@@ -1,3 +1,4 @@
+import os
 import requests
 import json
 from datetime import datetime, timezone
@@ -11,7 +12,7 @@ SYMBOLS = [
 
 TIMEFRAMES = ["15min", "1h", "4h"]
 
-API_KEY = "demo"
+API_KEY = os.environ["TWELVE_DATA_API_KEY"]
 
 data = {
     "updated_at": datetime.now(timezone.utc).isoformat(),
