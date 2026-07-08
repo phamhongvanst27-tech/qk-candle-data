@@ -4,8 +4,13 @@ import json
 from datetime import datetime, timezone
 
 SYMBOLS = [
+   "EURUSD",
     "GBPUSD",
-    "USDJPY"
+    "USDJPY",
+    "USDCAD",
+    "AUDUSD",
+    "XAUUSD",
+    "USOIL"
 ]
 
 TIMEFRAMES = ["15min", "1h", "4h"]
