@@ -3,8 +3,8 @@ import requests
 import json
 from datetime import datetime, timezone
 
-SYMBOLS = [
-   "EURUSD",
+ALL_SYMBOLS = [
+    "EURUSD",
     "GBPUSD",
     "USDJPY",
     "USDCAD",
@@ -12,6 +12,16 @@ SYMBOLS = [
     "XAUUSD",
     "USOIL"
 ]
+
+RUN_GROUP = int(datetime.now().minute / 5) % 3
+
+GROUPS = [
+    ["EURUSD", "GBPUSD", "USDJPY"],
+    ["USDCAD", "AUDUSD"],
+    ["XAUUSD", "USOIL"]
+]
+
+SYMBOLS = GROUPS[RUN_GROUP]
 
 TIMEFRAMES = ["15min", "1h", "4h"]
 
