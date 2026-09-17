@@ -1,85 +1,61 @@
 {
-  "version": "20260917151217",
-  "updated_at": "2026-09-17T15:12:17.539855+00:00",
+  "version": "20260917190640",
+  "updated_at": "2026-09-17T19:06:40.409177+00:00",
   "total_symbols": 4,
   "symbols": {
     "XAUUSD": {
       "15min": {
-        "status": "ok",
-        "datetime": "2026-09-17 20:15:00",
-        "open": 4312.0552,
-        "high": 4312.0552,
-        "low": 4307.00319,
-        "close": 4308.46961,
-        "ema50": 4304.449612477359,
-        "ema200": 4302.0305678646655,
-        "recent_high_20": 4335.70903,
-        "recent_low_20": 4286.35864
+        "status": "error",
+        "message": "HTTPSConnectionPool(host='api.twelvedata.com', port=443): Read timed out. (read timeout=30)"
       },
       "1h": {
-        "status": "ok",
-        "datetime": "2026-09-17 20:00:00",
-        "open": 4306.12875,
-        "high": 4313.50559,
-        "low": 4305.18649,
-        "close": 4308.46961,
-        "ema50": 4306.334943557805,
-        "ema200": 4339.492940727891,
-        "recent_high_20": 4357.86813,
-        "recent_low_20": 4238.36569
+        "status": "error",
+        "message": "HTTPSConnectionPool(host='api.twelvedata.com', port=443): Read timed out. (read timeout=30)"
       },
       "4h": {
         "status": "ok",
-        "datetime": "2026-09-17 19:00:00",
-        "open": 4312.06218,
-        "high": 4318.53515,
-        "low": 4305.18649,
-        "close": 4308.46961,
-        "ema50": 4334.886631494233,
-        "ema200": 4402.903511806017,
-        "recent_high_20": 4359.57799,
+        "datetime": "2026-09-18 03:00:00",
+        "open": 4360.70877,
+        "high": 4366.0496,
+        "low": 4348.77147,
+        "close": 4354.35292,
+        "ema50": 4338.988706352603,
+        "ema200": 4404.135434275418,
+        "recent_high_20": 4380.28912,
         "recent_low_20": 4238.36569
       },
-      "updated_at": "2026-09-17T10:23:34.706236+00:00"
+      "updated_at": "2026-09-17T19:06:40.409158+00:00"
     },
     "EURUSD": {
       "15min": {
         "status": "ok",
-        "datetime": "2026-09-17 20:15:00",
-        "open": 1.14793,
-        "high": 1.14794,
-        "low": 1.14766,
-        "close": 1.14789,
-        "ema50": 1.1475222704961887,
-        "ema200": 1.1508973178461555,
-        "recent_high_20": 1.14841,
-        "recent_low_20": 1.14637
+        "datetime": "2026-09-18 05:00:00",
+        "open": 1.14745,
+        "high": 1.14767,
+        "low": 1.14745,
+        "close": 1.14757,
+        "ema50": 1.147858117805999,
+        "ema200": 1.1504737693673155,
+        "recent_high_20": 1.14958,
+        "recent_low_20": 1.14734
       },
       "1h": {
         "status": "ok",
-        "datetime": "2026-09-17 20:00:00",
-        "open": 1.14732,
-        "high": 1.14797,
-        "low": 1.14722,
-        "close": 1.14789,
-        "ema50": 1.15074476178077,
-        "ema200": 1.1567845416961502,
-        "recent_high_20": 1.1542,
+        "datetime": "2026-09-18 05:00:00",
+        "open": 1.14745,
+        "high": 1.14767,
+        "low": 1.14745,
+        "close": 1.14757,
+        "ema50": 1.1499124625061294,
+        "ema200": 1.1561544996291675,
+        "recent_high_20": 1.14977,
         "recent_low_20": 1.14562
       },
       "4h": {
-        "status": "ok",
-        "datetime": "2026-09-17 19:00:00",
-        "open": 1.14726,
-        "high": 1.14797,
-        "low": 1.1472,
-        "close": 1.14789,
-        "ema50": 1.1557852262125272,
-        "ema200": 1.159026626232758,
-        "recent_high_20": 1.15706,
-        "recent_low_20": 1.14562
+        "status": "error",
+        "message": "HTTPSConnectionPool(host='api.twelvedata.com', port=443): Read timed out. (read timeout=30)"
       },
-      "updated_at": "2026-09-17T10:23:34.304796+00:00"
+      "updated_at": "2026-09-17T19:05:39.293520+00:00"
     },
     "GBPUSD": {
       "15min": {
